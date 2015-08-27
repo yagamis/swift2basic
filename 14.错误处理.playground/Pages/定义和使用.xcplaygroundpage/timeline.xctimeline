@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=59&amp;EndingColumnNumber=3&amp;EndingLineNumber=0&amp;StartingColumnNumber=1&amp;StartingLineNumber=0&amp;Timestamp=462282196.7458"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=59&amp;EndingColumnNumber=4&amp;EndingLineNumber=0&amp;StartingColumnNumber=1&amp;StartingLineNumber=0&amp;Timestamp=462282196.746067"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=59&amp;EndingColumnNumber=13&amp;EndingLineNumber=0&amp;StartingColumnNumber=1&amp;StartingLineNumber=0&amp;Timestamp=462282196.746293"
+         lockedSize = "{184, 274}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=19&amp;CharacterRangeLoc=604&amp;EndingColumnNumber=24&amp;EndingLineNumber=43&amp;StartingColumnNumber=5&amp;StartingLineNumber=43&amp;Timestamp=462283172.939816"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=33&amp;CharacterRangeLoc=461&amp;EndingColumnNumber=42&amp;EndingLineNumber=34&amp;StartingColumnNumber=9&amp;StartingLineNumber=34&amp;Timestamp=462283172.946456"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>

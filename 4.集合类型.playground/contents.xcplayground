@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='raw'>
+    <pages>
+        <page name='集合类型简介'/>
+        <page name='数组'/>
+        <page name='集合(Set)'/>
+        <page name='字典'/>
+    </pages>
+</playground>
