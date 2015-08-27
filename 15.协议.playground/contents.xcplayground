@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true'>
+    <pages>
+        <page name='定义'/>
+        <page name='属性协议'/>
+        <page name='方法协议'/>
+        <page name='构造方法协议'/>
+        <page name='协议作为类型使用'/>
+        <page name='协议作为代理'/>
+        <page name='协议扩展和扩展约束'/>
+        <page name='协议的集合类型'/>
+        <page name='协议继承和默认实现'/>
+        <page name='类专用协议'/>
+        <page name='协议组合'/>
+        <page name='协议检查和转换'/>
+    </pages>
+</playground>
