@@ -1,10 +1,16 @@
-//: 定义和使用 ：
+//: 花川学院
+//:
+//: ----
+//:
+//:  - Swift 2.0基础语法 by 小波
+//:  - [学习路线图](http://www.hcxy.me/map)
+//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
+//: ----
+//: 类和结构体: 用面向对象的方法来思考编程。
 //:  - class/struct 名称 {
 //:  -  变量定义（属性）
 //:  -  函数定义（方法）
 //:  - }
-
-
 
 //:  - 对象化（实例化）：参照类或结构体的定义，创造一个“生物体”。
 struct Weapon {

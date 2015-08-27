@@ -1,3 +1,11 @@
+//: 花川学院
+//:
+//: ----
+//:
+//:  - Swift 2.0基础语法 by 小波
+//:  - [学习路线图](http://www.hcxy.me/map)
+//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
+//: ----
 import UIKit
 //: if和switch语句
 //: - if语句: if 条件1 {语句} else if 条件2 {语句} else {语句}. 如天气预报决定出行工具.

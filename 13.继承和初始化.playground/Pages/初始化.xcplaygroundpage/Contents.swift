@@ -1,3 +1,11 @@
+//: 花川学院
+//:
+//: ----
+//:
+//:  - Swift 2.0基础语法 by 小波
+//:  - [学习路线图](http://www.hcxy.me/map)
+//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
+//: ----
 //: 初始化：描述类/结构体/枚举实例化时，属性如何给初始值的方法。形式：init(){  }。此方法称之为构造器。
 
 //: - 1⃣️类的定义没有给属性默认的值，则须在init中指定。
