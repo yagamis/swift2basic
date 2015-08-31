@@ -2,9 +2,10 @@
 //: - 继承的多个协议间用逗号分隔.
 import Foundation
 
-//自定义一个协议,继承控制台可打印和Playground预览
-protocol myPrintable : CustomStringConvertible, CustomPlaygroundQuickLookable {
 
+//自定义一个可打印和可预览协议
+protocol myPrintable: CustomStringConvertible, CustomPlaygroundQuickLookable {
+    
 }
 
 struct myText {
@@ -12,30 +13,33 @@ struct myText {
 }
 
 //: ⚡️提供默认实现: 可以给协议扩展提供一个默认的实现, 任何遵从此协议的类型都会获得.
+import UIKit
+
+
 extension myPrintable {
     var description: String {
-        return "控制台:默认描述"
+        return "控制台: 默认描述"
     }
     
     func customPlaygroundQuickLook() -> PlaygroundQuickLook {
-        return PlaygroundQuickLook.Text("playground预览:默认值")
+        return PlaygroundQuickLook.Text("playgroud预览: 默认值")
+//        return PlaygroundQuickLook.Color(UIColor.blueColor())
+        
     }
 }
 
-//对结构体进行扩展
 extension myText: myPrintable {
     var description: String {
-        return "print时预览:" + self.text
+        return "print时的预览:" + self.text
     }
     
     func customPlaygroundQuickLook() -> PlaygroundQuickLook {
-        return PlaygroundQuickLook.Text("Playground预览:" + self.text)
+        return PlaygroundQuickLook.Text("我的Text快速预览:" + self.text)
     }
 }
-
-
 
 let text1 = myText(text: "xiaobo")
 
+print(text1)
 
 //: [类专用协议](@next)
