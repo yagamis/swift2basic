@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+    <pages>
+        <page name='定义'/>
+        <page name='扩展计算属性'/>
+        <page name='扩展构造器'/>
+        <page name='扩展方法'/>
+        <page name='扩展下标'/>
+        <page name='扩展嵌套类型'/>
+    </pages>
+</playground>
