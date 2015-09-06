@@ -16,7 +16,7 @@ let xiaobo = Role()
 
 let xida = Role(weapon: Weapon(atk: 300, dex: 5), equip: Equip(def: 200, agl: 3))
 
-//土豪玩家 Level:vip1
+//土豪玩家 VIP1
 extension Role {
     init(vip1weapon: Weapon, vip1Equip: Equip) {
         let vipatk = vip1weapon.atk * 2
@@ -26,7 +26,7 @@ extension Role {
     }
 }
 
-let tuhao1 = Role(vip1weapon: Weapon(atk: 300, dex: 3), vip1Equip: Equip(def: 200, agl: 2))
+let tuhao1 = Role(vip1weapon: Weapon(atk: 300, dex: 5), vip1Equip: Equip(def: 200, agl: 3))
 
 
 

@@ -9,21 +9,19 @@ extension Int {
         switch self {
         case 0:
             return .零
-        case let x where x > 0:
+        case  let x where x > 0:
             return .正
         default:
             return .负
         }
     }
-
 }
 
-
-let 整数组 = [3,4,0,-5]
+let 整数组 = [3, 4, 0 , -5]
 var 整数组类型 = [String]()
 
 for 整数 in 整数组 {
-    var 符号:String
+    var 符号: String
     
     switch 整数.正负类型 {
     case .正:
@@ -38,5 +36,7 @@ for 整数 in 整数组 {
 }
 
 整数组类型
+
+
 
 //: [](@next)

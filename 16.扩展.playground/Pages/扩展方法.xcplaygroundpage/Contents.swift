@@ -10,10 +10,13 @@ extension Int {
     }
 }
 
-3.重复执行 {
-    print("希达猫")
+4.重复执行 { () -> Void in
+    print("小波说Swift 2 - 9月9日正式版")
 }
 
+3.重复执行 { () -> Void in
+    print("小波说Swift 2")
+}
 //: - 变异实例方法(结构体/枚举修改本身属性或实例时)
 extension Int {
     mutating func square() {
@@ -24,5 +27,7 @@ extension Int {
 var a = 3
 a.square()
 a
+
+
 
 //: [扩展下标](@next)
