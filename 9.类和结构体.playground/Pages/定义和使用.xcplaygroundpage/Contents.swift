@@ -1,10 +1,6 @@
-//: 花川学院
-//:
 //: ----
-//:
-//:  - Swift 2.0基础语法 by 小波
-//:  - [学习路线图](http://www.hcxy.me/map)
-//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
+//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 类和结构体: 用面向对象的方法来思考编程。
 //:  - class/struct 名称 {

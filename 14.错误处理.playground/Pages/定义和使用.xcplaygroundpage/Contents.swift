@@ -1,10 +1,6 @@
-//: 花川学院
-//:
 //: ----
-//:
-//:  - Swift 2.0基础语法 by 小波
-//:  - [学习路线图](http://www.hcxy.me/map)
-//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
+//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 错误处理: 反映运行出错的“细节”，并恢复程序的过程.
 //: - 可选类型仅处理值缺失, 错误处理可以针对不同的出错原因对不同的应对.

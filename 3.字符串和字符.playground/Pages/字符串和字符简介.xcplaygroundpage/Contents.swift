@@ -1,3 +1,7 @@
+//: ----
+//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
+//: ----
 //: 字符串和字符
 //:
 //: ----
