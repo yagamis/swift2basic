@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='raw'>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='课程说明'/>
         <page name='Swift初印象'/>
@@ -15,7 +15,7 @@
         <page name='常量赋值'/>
         <page name='变量'/>
         <page name='思考：常量与变量的关系'/>
-        <page name='思考：注释的作用'/>
+        <page name='代码注释'/>
         <page name='如何正确使用常量与变量？'/>
         <page name='值的类型(整数)'/>
         <page name='浮点型'/>
@@ -27,8 +27,8 @@
         <page name='元组'/>
         <page name='可选类型'/>
         <page name='nil'/>
-        <page name='有值判断和强拆'/>
-        <page name='有值绑定'/>
+        <page name='可选判断和可选强拆'/>
+        <page name='可选绑定'/>
         <page name='暗拆可选类型'/>
         <page name='断言'/>
     </pages>

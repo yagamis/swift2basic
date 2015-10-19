@@ -3,7 +3,4 @@
 print("So，easy！爸爸再也不动担心我的学习了！")
 
 
-print("hello")
-
-
 //: [>](@next)
