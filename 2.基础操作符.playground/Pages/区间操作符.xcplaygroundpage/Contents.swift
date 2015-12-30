@@ -1,17 +1,11 @@
 //: 区间操作符: 一般用于循环运算中的范围指定.
 //: - 闭区间 a...b
-1...100
-
-var j = 0
-for var i = 0 ;i <= 100; i++ {
-    j += i
-}
-j
+let oneToHundred = 1...100
 
 
 var y = 0
 
-for x in 1...100 {
+for x in oneToHundred {
     y += x
 }
 
