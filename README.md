@@ -1,6 +1,6 @@
 # swift2basic
-Swift2-基础语法 请用最新版本的XCode打开.  XCode百度盘下载：http://pan.baidu.com/s/1qWMKQle
+Swift2-基础语法 请用最新版本XCode打开.  
 
 配套视频： 花川学院 www.hcxy.me
 
-by 小波 群：109816704  QQ：41359833
+支持群：109816704  QQ：41359833 by 小波 
