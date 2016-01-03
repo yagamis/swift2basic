@@ -1,6 +1,6 @@
 //:   编程处女航
-//:  - So，easy！妈妈再也不动担心我的学习了！
-print("So，easy！爸爸再也不动担心我的学习了！")
+//:  - Hello World！ Hello Swift！
 
-
+print("Hello World! Hello Swift! 世界你好，中国你好，雨燕你好！")
+print("小波你好")
 //: [>](@next)

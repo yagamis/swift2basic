@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 - Swift 2](http://www.xiaoboswift.com)
 //:  - 全集源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
 //:  - Swift版本: 2.1
 //: ----
