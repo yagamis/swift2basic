@@ -1,23 +1,23 @@
 //: 修改字符串-插入和删除
-
+var a = "小波说雨燕"
 //: - 插入一个字符在指定索引,用insert方法
-var 词 = "站在山岗上"
+a.insert("!", atIndex: a.endIndex)
 
-词.insert("我", atIndex: 词.startIndex)
-词.insert("!", atIndex: 词.endIndex)
-
-//: - 把另一个字符串插入到指定的索引,用splice方法.在歌词后插入作者.
-词.splice("-张惠妹".characters, atIndex: 词.endIndex.predecessor())
-
-
+//: - insertContentsOf插入一个字符串.
+let b = " 之Swift2"
+a.insertContentsOf(b.characters, at: a.endIndex.predecessor())
 
 //: - 删除一个指定索引的字符,用removeAtIndex方法.🌰删除字符串的最后一位.
-词.removeAtIndex(词.endIndex.predecessor())
-词
+a.removeAtIndex(a.endIndex.predecessor())
 
-//: - 删除一个范围的子串,用removeRange方法.🌰删除后2位
-let 范围 = advance(词.endIndex, -2)..<词.endIndex
+a
 
-词.removeRange(范围)
+
+//: - 删除一个范围的子串,用removeRange方法.🌰删除之前添加的字符串
+let 范围 = a.endIndex.advancedBy(-(b.characters.count))..<a.endIndex
+a.removeRange(范围)
+
+a
+
 
 //: [比较字符串](@next)

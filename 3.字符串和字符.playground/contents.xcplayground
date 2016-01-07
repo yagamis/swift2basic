@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='字符串和字符简介'/>
         <page name='字符串字面量'/>
@@ -7,11 +7,9 @@
         <page name='连接字符串和字符'/>
         <page name='字符串插值'/>
         <page name='特殊字符'/>
-        <page name='Unicode扩展语素区'/>
         <page name='字符计数'/>
         <page name='修改字符串-索引'/>
         <page name='修改字符串-插入和删除'/>
         <page name='比较字符串'/>
-        <page name='字符串的不同Unicode编码'/>
     </pages>
 </playground>
