@@ -1,26 +1,24 @@
-//: 早退语句: 在继续执行所必需条件不满足的一开始,就退出执行.通常用在函数中.
+//: 早退语句: 在必需条件不满足的早期阶段退出执行.
 //:  语句关键字 guard, 与if相似. 属于条件强调意味很浓的语句.
-//:  guard let 与 if let相似,用于可选类型.guard用于提升代码可读性.
-func 某会所打招呼(人: [String:String]) {
-    guard let 名 = 人["名"] else {
+//:  guard let 与 if let相似,用于可选类型.guard有助于提升代码可读性.
+
+var coin = true
+var credit : Int? = 3
+
+func 坐公交() {
+    guard coin else {
         return
     }
     
-    print("你好,\(名)!")
-    
-    guard let 钱 = 人["钱"] else {
-        print("对不起,我们这欢迎的是尊贵的VIP客户!")
+    guard let _ = credit else {
         return
     }
     
-    print("欢迎光临本店!感谢您消费了\(钱)元,您已经成为我们的VIP客户!")
+    print("欢迎乘坐本公司公交车!")
 }
 
+坐公交()
 
-
-某会所打招呼(["名":"小波"])
-
-某会所打招呼(["名":"老镇","钱":"2000"])
 
 
 

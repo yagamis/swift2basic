@@ -1,33 +1,17 @@
-//: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
-//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
-//: ----
-import UIKit
-//: if和switch语句
-//: - if语句: if 条件1 {语句} else if 条件2 {语句} else {语句}. 如天气预报决定出行工具.
-var 天气预报 = "雨"
+//: if和Switch语句
+//: - if语句: 条件成立或不成立时的应对.
+var 晴天 = false
 
-if 天气预报 == "晴" {
-    print("跑步上班!")
-} else if (天气预报 == "雨") {
-    print("打车上班!")
+if 晴天 {
+    print("上班!")
 } else {
-    print("坐公交上班!")
+    print("休息!")
 }
 
-//: - switch语句:当遇到超过2个以上的条件需要判断时. 格式:
-//switch 某变量 {
-//    case 条件1:
-//        操作1
-//    case 条件2:
-//        操作2
-//    case 条件3:
-//        操作3
-//    default:
-//        以上条件都不满足时的处理.
-//}
 
-天气预报 = "雾霾"
+//: - switch语句:超过2个以上情况判断的场合
+
+var 天气预报 = "霾"
 
 switch 天气预报 {
     case "晴":
@@ -41,8 +25,6 @@ switch 天气预报 {
 }
 
 //: - switch条件的内部再匹配.
-
-
 
 
 //: - 1⃣️范围匹配:如农场主根据节气(温度范围)来播种
@@ -64,7 +46,8 @@ default:
     提示 = "不适宜人类的温度了,好自为之!"
 }
 //: - 2⃣️元组匹配:可以同时对多个变量进行组合式匹配. 如坐标点所在象限判断.
-UIImage(named: "coordinate")
+坐标图1()
+
 
 let 坐标 = (1,1)
 
@@ -99,7 +82,7 @@ case let (x, y):
 
 
 //: - 4⃣️值绑定的where再匹配:
-UIImage(named: "coordinate-2")
+坐标图2()
 
 let 坐标3  = (-3, 3)
 switch 坐标3 {
@@ -110,5 +93,3 @@ case let (x, y) where x == -y:
 case let (x, y):
     "\(x),\(y)不在对角线"
 }
-
-//: [](@next)

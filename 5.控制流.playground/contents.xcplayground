@@ -3,9 +3,9 @@
     <pages>
         <page name='简介'/>
         <page name='for循环'/>
-        <page name='while循环综合运用'/>
-        <page name='if和switch语句'/>
+        <page name='while循环'/>
         <page name='控制转移语句'/>
         <page name='早退语句'/>
+        <page name='if和Switch语句'/>
     </pages>
 </playground>
