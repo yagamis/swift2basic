@@ -1,23 +1,20 @@
 //: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - 小波说雨燕2016 之 Swift 2
+//:  - 在线观看: [hcxy.ke.qq.com](http://hcxy.ke.qq.com) 或 [hcxy.me](http://hcxy.me) (有字幕)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
-import UIKit
+
 //: 集合类型
 //:
 //: ----
 //:
-//:  - Swift提供主要的集合类型,如 数组/集合(Set)/字典,为了存储一组值.
-//:  - 数组是一组有序的值.
-//:  - 集合(Set)是一组不重复的无序的值.
-//:  - 字典是一组带索引的无序的值, 也叫Key-Value pair(键值对).
-UIImage(named: "CollectionTypes_intro_2x")
+//:  - 把一组值存在一起的类型, 常见的有数组/集合/字典.
+//:  - 值有序可重复 - 数组(Array)
+//:  - 值无序不重复 - 集合(Set)
+//:  - 值无序可重复,但每个值有唯一的标记(Key) - 字典(Dictionary)
 
 
-//:  - 集合类型必须明确它们所存储的值和键的类型.
-//:
-//: ----
-//:
+
 
 
 

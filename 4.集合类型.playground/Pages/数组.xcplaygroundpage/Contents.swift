@@ -1,57 +1,51 @@
 //: 数组
-//:  - 如果有一系列相同类型的值, 可以存在一个数组里.其中元素可以重复多次.
-//:  - 定义一个数组: Array<元素> 或 ⚡️短格式 [元素]
-//:  - 定义一个空数组: [类型] ()
-var a = [Int]()
-//:  - 🈳清空一个数组: [] 或 removeAll方法
-a = []
-a.removeAll()
+//:  - 有序可重复, 用于存储同一类型的值. 最常用.
 
+//:  - 定义: Array<类型> 或 [类型]
+let 一箱牛奶商品 : Array<String>
 
+let 一箱豆奶: [String]
 
 //:  - 创建一个有默认值的数组,加参数count和repeatedValue
-let b = [Int](count: 10, repeatedValue: 1)
+let 一箱12盒光明牛奶 = [String](count: 12, repeatedValue: "优创")
 
 
-//:  - 创建一个有序范围的Int数组,Array(起始值...终止值)
-var bb = Array(2...5)
 
-//索引
-bb.indices
+//:  - ⚡️创建一个有序范围的Int数组,Array(起始值...终止值)
+let 一到一百 = Array(1...100)
 
 
-//:  - 🈴相同类型数组的组合, 用 +
-var c = a + b
-//:  - 用数组字面量来创建数组
-a = [1,2,3,3]
+
+//:  - ⚡️💡用数组字面量来创建数组: [值1, 值2, 值3, ..., 值N]
+var 京沪高铁 = ["北京南站","天津","济南","郑州","蚌埠","南京南","常州","苏州","昆山","上海虹桥"]
 
 
-//:  - 访问和修改数组中元素: 🈶①元素总数count, 数组是否有元素isEmpty
-a.count
-a = []
-a.isEmpty
+//:  - ①元素计数:count, 空否: isEmpty
+京沪高铁.count
+京沪高铁.isEmpty
 
-//:  - ②➕添加一个元素append, 添加一个同类型数组 +=
-a.append(5)
+//:  - ②➕添加: append, 添加一个同类型数组 +=
 
-a += [99,8,10]
+京沪高铁.append("上海南站")
 
-//:  - ③👀使用下标来获取指定的元素 : 数组名[元素索引], ⚠️索引总是从0开始
-a[0]
-a[1]
-//:  - ④↙️插入元素: insert(atIndex)
-a.insert(-11, atIndex: 2)
+let 沪杭高铁 = ["嘉兴", "桐乡", "临安", "杭州东站"]
 
-//:  - ⑤↗️移除元素: remove(atIndex), 移除最后一项,removeLast,移除指定范围removeRange
-//a.removeAtIndex(3)
-//a.removeLast()
-//a
-//
-//a.removeRange(0...1)
-//:  - ⑥循环一个数组, for in
-for 元素 in a {
-    print(元素)
-}
+
+京沪高铁 += 沪杭高铁
+
+
+//:  - ③获取元素 : 数组名[索引], ⚠️索引总是从0开始
+京沪高铁[12,]
+
+
+//:  - ④↙️插入: insert
+京沪高铁.insert("镇江", atIndex: 6)
+
+//:  - ⑤↗️移除: remove
+京沪高铁.removeAtIndex(11)
+
+京沪高铁
+
 
 
 //: [集合(Set)](@next)
