@@ -2,10 +2,10 @@
 //: continue break
 
 //: - continue 结束本次循环, break 结束整个循环
-for i in 1...10 {
-    if i == 5 {
-        continue
-        //break
+for i in 1...5 {
+    if i == 3 {
+//        continue
+        break
     }
     print(i)
 }

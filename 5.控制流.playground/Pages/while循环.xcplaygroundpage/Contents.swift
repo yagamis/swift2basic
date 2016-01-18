@@ -6,9 +6,9 @@
 var i = 1
 var j = 0
 
-while j <= 5050 {
-    j += i
+while j <= 505050 {
     i += 1
+    j += i
 }
 
 //: [控制转移语句](@next)
