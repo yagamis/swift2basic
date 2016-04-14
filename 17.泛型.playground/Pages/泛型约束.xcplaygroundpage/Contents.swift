@@ -2,26 +2,17 @@
 //func 某函数<T: 某类, U: 某协议>(某参数: T, 某类型: U) {
 //    //函数体
 //}
-func 查询文本位置(文本数组:[String], 要查询的文本:String) -> Int? {
+
+
+func 查位置<Element: Equatable>(文本数组:[Element], 待查元素:Element) -> Int? {
     for (位置, 值) in 文本数组.enumerate() {
-        if 值 == 要查询的文本 {
+        if 值 == 待查元素 {
             return 位置
         }
     }
     return nil
 }
 
-查询文本位置(["刘备","关羽","张飞","孔明"], 要查询的文本: "孔明")
 
-
-//func 查询文本位置<T: Equatable>(文本数组:[T], 要查询的文本:T) -> Int? {
-//    for (位置, 值) in 文本数组.enumerate() {
-//        if 值 == 要查询的文本 {
-//            return 位置
-//        }
-//    }
-//    return nil
-//}
-
-
+查位置(["刘备","关羽","张飞","孔明"], 待查元素: "孔明")
 //: [关联类型](@next)

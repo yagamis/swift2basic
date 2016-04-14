@@ -27,17 +27,17 @@ default:
 
 
 
-//:  - 关联值: 枚举类型可关联一个或多个值，其后加元组型即可。 🌰case 类型(Int,String,...)
+//:  - 附加值: 每一种类型都可附加一个或多个值，形式是元组。 🌰case 类型(Int,String,...)
 enum 精确天气 {
     case 晴(Int, Int, String)
     case 霾(String, Int)
 }
 
-//:  - 赋予关联值:加上元组字面量.
+//:  - 赋予附加值:加上元组字面量.
 let 上海今日精确天气 = 精确天气.霾("PM10", 100)
 let 北京今日精确天气 = 精确天气.晴(30, 50, "湛蓝")
 
-//:  - 取得关联值:用switch语句, 在case中加上元组变量.
+//:  - 取得附加值:用switch语句, 在case中加上元组变量.
 switch 北京今日精确天气 {
 case .晴(let uvi, let li, let desc):
     print("紫外线指数:",uvi,"晾晒指数:", li, "天蓝程度:", desc)
