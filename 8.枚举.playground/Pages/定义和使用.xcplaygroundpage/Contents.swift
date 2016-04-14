@@ -27,7 +27,7 @@ default:
 
 
 
-//:  - 附加值: 每一种类型都可附加一个或多个值，形式是元组。 🌰case 类型(Int,String,...)
+//:  - 附加（或关联）值: 每一种类型都可附加一个或多个值，形式是元组。 🌰case 类型(Int,String,...)
 enum 精确天气 {
     case 晴(Int, Int, String)
     case 霾(String, Int)
