@@ -1,7 +1,7 @@
 //: 修改字符串. 通过字符串的各种方法和属性,其中一种方法是使用索引.
 
 //: - 字符串索引: 索引对应其中每一个字符的位置.
-let a = "小波说雨燕 之 Swift 2 , 花川学院首发"
+let a = "小波说雨燕 之 Swift 3，xiaoboswift.com"
 
 //: - 首字符索引 startIndex, endIndex是尾字符后一个位置.
 a.startIndex

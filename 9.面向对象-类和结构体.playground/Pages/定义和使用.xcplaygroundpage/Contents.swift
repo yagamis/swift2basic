@@ -1,5 +1,5 @@
 //: ----
-//:  - 小波说雨燕2016 之 Swift 2
+//:  - 小波说雨燕 Swift语法简明版
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 用生物学的角度把变量和函数有机组织起来,叫面向对象编程.

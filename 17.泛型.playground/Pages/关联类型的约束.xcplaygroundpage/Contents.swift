@@ -1,7 +1,7 @@
 //: 关联类型的约束: 对一个关联类型进行协议遵从性或类型一致性检查,在参数列表后紧跟where判断语句.
 protocol 容器 {
     //未指定是谁的别名, 留给遵从此协议的类型提供
-    typealias ItemType
+    associatedtype ItemType
     
     //别名也用于方法和属性,推测参数或返回值类型
     mutating func append(item: ItemType)

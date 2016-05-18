@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 错误处理: 反映运行出错的“细节”，并恢复程序的过程.
@@ -8,7 +8,7 @@
 
 //: - 一个函数可以加上throws关键字,表示可以处理错误. 这个函数的调用者可以捕获(catch)这个错误并进行应对.
 func aFoo() throws {
-    print("iOS-training 7：30开始答疑")
+    print("iOS免费培训斗鱼直播,房间号：57621, douyu.com/xiaobo")
 }
 
 

@@ -1,5 +1,5 @@
 //: ----
-//:  - 小波说雨燕2016之Swift 2
+//:  - 小波说雨燕 Swift语法简明版
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 枚举 enumeration

@@ -1,6 +1,5 @@
 //: ----
-//:  - 小波说雨燕2016 之 Swift 2
-//:  - 在线观看: [hcxy.ke.qq.com](http://hcxy.ke.qq.com) 或 [hcxy.me](http://hcxy.me) (有字幕)
+//:  - 小波说雨燕 之 Swift 3
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 

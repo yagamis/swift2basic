@@ -4,7 +4,7 @@ var a = "小波说雨燕"
 a.insert("!", atIndex: a.endIndex)
 
 //: - insertContentsOf插入一个字符串.
-let b = " 之Swift2"
+let b = " 之Swift3"
 a.insertContentsOf(b.characters, at: a.endIndex.predecessor())
 
 //: - 删除一个指定索引的字符,用removeAtIndex方法.🌰删除字符串的最后一位.

@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 基础操作符

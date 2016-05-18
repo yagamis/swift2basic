@@ -1,6 +1,7 @@
 //:   编程处女航
 //:  - Hello World！ Hello Swift！
 
-print("Hello World! Hello Swift! 世界你好，中国你好，雨燕你好！")
-print("小波你好")
+print("Hello World!")
+print("欢迎学习Swift 3.0语法小波简明版！")
+print("新手4周，有编程基础1周！")
 //: [>](@next)

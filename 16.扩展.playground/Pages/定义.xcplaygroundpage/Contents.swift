@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说Swift 2](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 扩展: 对既有的类/结构体/枚举/协议添加新功能,即使无权查看这些类型的源代码(也叫:追加建模). 扩展没有名称.

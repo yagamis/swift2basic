@@ -17,7 +17,7 @@ x == y
 
 
 //: - 前缀和后缀相等: 用于检查一个字符串是否具有特定前缀和后缀. hasPrefix和hasSuffix
-let a = "小波说雨燕 之 Swift 2!"
+let a = "小波说雨燕 之 Swift 3!"
 let b = "小波说雨燕 之 iOS9闪电开发"
 
 let c = "小波说雨燕"
