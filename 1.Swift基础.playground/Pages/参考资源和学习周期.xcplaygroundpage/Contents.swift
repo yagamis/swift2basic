@@ -1,6 +1,6 @@
 //:   参考资源和学习周期
-//: - 官方教程:[The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)
-//: - 建议学习周期：4周(从未学过编程) ，有其他编程语言基础（1周）
+//: - 本课程来自官方教程的精华版:[The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)
+//: - 建议学习周期：2周(从未学过编程) ，有编程语言基础（3天）
 
 
 
