@@ -1,7 +1,7 @@
 //: 关联类型:定义协议时,有时需要定义一个或多个关联类型作辅助. 关联类型有一个别名.
 protocol 容器 {
     //未指定是谁的别名, 留给遵从此协议的类型提供
-    typealias ItemType
+    associatedtype ItemType
     
     //别名也用于方法和属性,推测参数或返回值类型
     mutating func append(item: ItemType)
