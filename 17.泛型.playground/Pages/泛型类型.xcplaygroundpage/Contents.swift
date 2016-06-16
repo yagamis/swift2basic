@@ -39,7 +39,7 @@ var Swift大神 = Stack<String>()
 Swift大神.push("Mattt")
 Swift大神.push("raywenderlich")
 Swift大神.push("鸟叔")
-Swift大神.push("老镇")
+Swift大神.push("Ying")
 Swift大神.push("xiaobo")
 
 let 菜鸟 = Swift大神.pop("xiaobo")

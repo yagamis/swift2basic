@@ -4,9 +4,9 @@ var credit = true
 var hasCash = true
 
 if credit && hasCash {
-    print("欢迎打的!")
+    print("欢迎乘坐铛铛打车!")
 } else {
-    print("对不起,您回家拿钱包!")
+    print("对不起,请充值!")
 }
 
 

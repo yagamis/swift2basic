@@ -3,7 +3,7 @@
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 下标是方法的一种，是访问集合、列表或者序列中的元素的快捷方式。
-//: 用法: 实例名[索引] 。可以访问或设置其中元素。💡下标可以是多维或嵌套的🌰嵌套：SwiftyJSON：json[country][provience][city][district][weekly]；多维：矩阵[2,2]，数组[1,2,3]
+//: 用法: 实例名[索引] 。可以访问或设置其中元素。💡下标可以是多维或嵌套的🌰嵌套：area[country][provience][city][district][weekly]；多维：矩阵[2,2]，数组[1,2,3]
 import Foundation
 //: ----
 //:  - 定义形式：一个名为subscript的计算属性；可以忽略set（只读）

@@ -8,7 +8,7 @@
 
 //: - 一个函数可以加上throws关键字,表示可以处理错误. 这个函数的调用者可以捕获(catch)这个错误并进行应对.
 func aFoo() throws {
-    print("iOS免费培训斗鱼直播,房间号：57621, douyu.com/xiaobo")
+    print("iOS教学直播,房间号：57621, douyu.com/xiaobo")
 }
 
 

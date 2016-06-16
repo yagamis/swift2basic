@@ -11,11 +11,11 @@ extension Int {
 }
 
 4.重复执行 { () -> Void in
-    print("小波说Swift 2 - 9月9日正式版")
+    print("小波说Swift 3 - 斗鱼直播 房间号57621 ")
 }
 
 3.重复执行 { () -> Void in
-    print("小波说Swift 2")
+    print("小波说Swift 3")
 }
 //: - 变异实例方法(结构体/枚举修改本身属性或实例时)
 extension Int {

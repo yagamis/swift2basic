@@ -17,14 +17,14 @@ struct AndroidCoder: Coder {
 struct OCCOder: Coder {
     var name: String
     var updating: String {
-        return "OC大牛们尝试了解Swift 2.0"
+        return "OC大牛们尝试了解Swift 3.0"
     }
 }
 
 struct DotNotCoder: Coder {
     var name: String
     var updating: String {
-        return ".NET程序员学Swift 2.0转型"
+        return ".NET程序员学Swift 3.0转型"
     }
 }
 

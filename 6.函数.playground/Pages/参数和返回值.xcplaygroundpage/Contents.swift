@@ -3,8 +3,8 @@
 //:  - 无参数无返回值 .一般用于执行一系列操作,不需要结果.
 func 问候() {
     print("欢迎收看小波说雨燕2016")
-    print("之Swift 2")
-    print("www.hcxy.me")
+    print("之Swift 3.0")
+    print("www.xiaoboswift.com")
 }
 
 问候()
