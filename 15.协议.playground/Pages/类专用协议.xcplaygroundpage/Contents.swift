@@ -8,8 +8,8 @@ class  myText {
 }
 
 extension myText: 一个协议{
-    func customPlaygroundQuickLook() -> PlaygroundQuickLook {
-        return PlaygroundQuickLook.Text(self.text)
+    var customPlaygroundQuickLook: PlaygroundQuickLook {
+        return PlaygroundQuickLook.text(self.text)
     }
 }
 //: [协议组合](@next)

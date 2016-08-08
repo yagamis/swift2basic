@@ -5,4 +5,6 @@ let 数组: [CustomStringConvertible]  = [1,2,3,4,"文本"]
 
 for 元素 in 数组 {
     print(元素)
-}//: [协议继承和默认实现](@next)
+
+}
+//: [协议继承和默认实现](@next)

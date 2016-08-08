@@ -10,7 +10,7 @@ func add(a: Int, b: Int) -> Int {
 
 let 加法 = add
 
-我的加法(加法, b: 3, c: 4)
+我的加法(a: 加法, b: 3, c: 4)
 
 
 //:  - 函数型返回值：可以把函数类型作为一个返回值。
@@ -31,6 +31,6 @@ func addOrSub1(正数:Bool) -> (Int) -> Int {
 }
 
 
-addOrSub1(false)(0)
+addOrSub1(正数: false)(0)
 
 

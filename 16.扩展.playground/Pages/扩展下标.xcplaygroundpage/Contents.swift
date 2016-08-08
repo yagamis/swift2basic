@@ -4,8 +4,8 @@
 //🌰 123456789[2] 算法,除以100,对10求余数, 就是7
 
 extension Int {
-    subscript(var index: Int) -> Int {
-        var base = 1
+    subscript(index: Int) -> Int {
+       var base = 1
         
         for _ in 1...index {
             base *= 10

@@ -45,11 +45,12 @@ extension showIntHint where Self: CustomStringConvertible {
 
 1.hint2()
 
-extension CollectionType where Generator.Element : CustomStringConvertible {
+//集合类型 Collection 也是一种协议,Iterator.Element指代其中的元素
+extension Collection where Iterator.Element : CustomStringConvertible {
     func newDesc() -> String {
         let itemAsText = self.map{ $0.description }
         
-        return "元素数: \(self.count),值分别是:" + itemAsText.joinWithSeparator(",")
+        return "元素数: \(self.count),值分别是:" + itemAsText.joined(separator: ",")
     }
 }
 

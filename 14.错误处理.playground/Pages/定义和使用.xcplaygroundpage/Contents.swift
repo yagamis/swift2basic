@@ -18,7 +18,7 @@ try aFoo()
 
 
 //: - 处理更细分的错误情况，错误类型须遵从ErrorType协议。
-enum 学习障碍: ErrorType {
+enum 学习障碍: Error {
     case 没方法, 不想看书, 缺学习工具(tool: String)
 }
 
@@ -49,25 +49,25 @@ func buy(工具:String) {
 
 //尝试iOS开发的学习
 do {
-    try iosDev(true, 方式: true, 工具: false)
+    try iosDev(方法: true, 方式: true, 工具: false)
     print("恭喜您迈出了第一步！")
 } catch 学习障碍.没方法 {
     print("找小波")
 } catch 学习障碍.不想看书 {
     print("看小波视频，斗鱼互动")
 } catch 学习障碍.缺学习工具(let mac) {
-    buy(mac)
+    buy(工具: mac)
 }
 
 
 //: - 有时候仅关心结果有无，可使用 try? 或 try! 来忽略错误细节。
-if let result = try? iosDev(true, 方式: false, 工具: true) {
+if let result = try? iosDev(方法: true, 方式: false, 工具: true) {
     print("恭喜您已经开始学习！")
 } else {
     print("条件不足，无法学习")
 }
 
-try! iosDev(true, 方式: true, 工具: true)
+try! iosDev(方法: true, 方式: true, 工具: true)
 
 //: - 特定的清理收尾工作。defer语句
 func pk() {

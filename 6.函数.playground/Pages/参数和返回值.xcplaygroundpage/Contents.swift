@@ -2,8 +2,8 @@
 
 //:  - 无参数无返回值 .一般用于执行一系列操作,不需要结果.
 func 问候() {
-    print("欢迎收看小波说雨燕2016")
-    print("之Swift 3.0")
+    print("欢迎收看小波说雨燕")
+    print("3天学会Swift 3")
     print("www.xiaoboswift.com")
 }
 
@@ -25,7 +25,7 @@ func add(a: Int, b: Int, c: Int) -> Int {
     return a + b + c
 }
 
-add(3, b: 4, c: 5)
+add(a: 3, b: 4, c: 5)
 
 
 
@@ -52,6 +52,6 @@ func sum(numbers: Int...) -> Int {
 }
 
 
-sum(1,2,3,4,5,6,7,8)
+sum(numbers: 1,2,3,4,5,6,7,8)
 
 //: [函数类型](@next)

@@ -1,14 +1,14 @@
 //: 属性协议：顾名思义，要求遵从者实现以指定的名称实现属性，但具体实现是实例属性或类型属性并不关心。
 //:  - 可以指定要求实现getter 或 getter+setter。 属性必须定义为变量，var。
 //实例属性协议
-protocol 某协议{
-    var 必须是读写: Int { get set }
+protocol 文件权限{
+    var 读写: Int { get set }
     var 只读: Int { get }
 }
 
 //类型属性协议
-protocol 另一个协议 {
-    static var 某类型属性: Int { get set }
+protocol 直播地址 {
+    static var link: String { get }
 }
 
 //:  - 遵从实例属性协议🌰1

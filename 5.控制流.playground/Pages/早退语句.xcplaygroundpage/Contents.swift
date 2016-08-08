@@ -9,7 +9,7 @@ func 打的() {
         return
     }
     
-    guard let mycredit = credit where mycredit >= 6 else{
+    guard let mycredit = credit , mycredit >= 6 else{
         return
     }
     

@@ -14,17 +14,11 @@ struct AndroidCoder: Coder {
     }
 }
 
-struct OCCOder: Coder {
-    var name: String
-    var updating: String {
-        return "OC大牛们尝试了解Swift 3.0"
-    }
-}
 
 struct DotNotCoder: Coder {
     var name: String
     var updating: String {
-        return ".NET程序员学Swift 3.0转型"
+        return ".NET程序员学Swift 3"
     }
 }
 
@@ -32,25 +26,21 @@ struct NewBie {
     var name: String
 }
 
-let a = AndroidCoder(name: "茅屋为秋风所破歌")
-let o = OCCOder(name: "希达")
+let a = AndroidCoder(name: "茅屋秋风哥")
 let d = DotNotCoder(name: "yuki")
 let x = NewBie(name: "小波")
 
-let coders:[Any] = [a,o,d,x]
+let coders:[Any] = [a,d,x]
 
 for coder in coders {
     if let coder1 = coder as? Coder {
         print(coder1.updating)
     } else {
-        print("你不是一个真正的程序员!你会很辛苦的!")
+        print("你不是程序员!你会很辛苦的!")
     }
     
     if let xiaobo = coder as? NewBie {
         print("你是",xiaobo.name)
     }
     
-
-    
 }
-//: [提供默认实现](@next)

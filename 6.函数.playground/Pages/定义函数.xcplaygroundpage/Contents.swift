@@ -6,8 +6,8 @@ func 加法(a: Int, b: Int) -> Int {
     return a + b
 }
 
-var 结果 = 加法(3, b: 4)
+var 结果 = 加法(a: 3, b: 4)
 
 
-加法(4, b: -2)
+加法(a: 4, b: -2)
 //: [参数和返回值](@next)

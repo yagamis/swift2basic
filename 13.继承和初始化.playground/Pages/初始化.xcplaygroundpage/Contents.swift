@@ -96,8 +96,8 @@ elepant?.name.fastestEncoding.description
 
 
 
-let url = NSURL(string: "http://www.xiaoboswift.com")
+let url = URL(string: "http://www.xiaoboswift.com")
 
-let urlrequest = NSURLRequest(URL: url!)
+let urlrequest = URLRequest(url: url!)
 
 //: [](@next)

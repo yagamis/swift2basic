@@ -55,9 +55,9 @@ struct PlayGame: Lolgame {
         if let gameAgent = gameAgent {
             print("您使用了代练!")
             
-            exp += gameAgent.gameStart(self)
-            exp += gameAgent.gameRolePK(self, armed: true)
-            exp += gameAgent.gameOver(self)
+            exp += gameAgent.gameStart(game: self)
+            exp += gameAgent.gameRolePK(game: self, armed: true)
+            exp += gameAgent.gameOver(game: self)
         } else {
             print("没有使用任何代练或挂机,不会自动升级")
         }

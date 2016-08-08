@@ -7,8 +7,8 @@
 //: ----
 //:  - 常规属性: 一个存储用的常量/变量.
 class 角色 {
-    let id:String = "xiaobo"
-    var money: Int = 9999
+    let id = "xiaobo"
+    var money = 9999
 }
 
 let 小波 = 角色()

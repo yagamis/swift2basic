@@ -16,17 +16,9 @@ var 数组1 = [1,2,3,55,6,-9,0]
 数组1[3]
 
 
-let 字典1 = ["小波":1, "Yuki": 2, "希达":3]
+let 字典1 = ["小波":1, "Yuki": 2, "河池VR":3]
 
-字典1["华仔"]
-
-
-let dict2 = 字典1 as NSDictionary
-
-dict2.valueForKey("希达")
-dict2["希达"]
-
-
+字典1["河池VR"]
 //:  - 1⃣️通过下标简化调用方法调用
 struct 圆 {
     func 面积(半径:Double) ->Double {
@@ -39,7 +31,7 @@ struct 圆 {
 }
 
 let 圆1 = 圆()
-圆1.面积(3.3)
+圆1.面积(半径: 3.3)
 
 圆1[3.3]
 
@@ -57,7 +49,7 @@ struct Matrix {
         self.cols = cols
         self.rows = rows
         
-        grid = Array(count: rows * cols, repeatedValue: 0)
+        grid = Array(repeating: 0,count: rows * cols)
     }
     
     func indexIsValid(row:Int,col:Int) -> Bool {
@@ -66,11 +58,11 @@ struct Matrix {
     
     subscript(row:Int, col:Int) ->Int {
         get {
-            assert(indexIsValid(row, col: col), "数组索引越界")
+            assert(indexIsValid(row: row, col: col), "数组索引越界")
             return grid[col + (row * cols)]
         }
         set {
-            assert(indexIsValid(row, col: col), "数组索引越界")
+            assert(indexIsValid(row: row, col: col), "数组索引越界")
             
             grid[col + (row * cols)] = newValue
         }

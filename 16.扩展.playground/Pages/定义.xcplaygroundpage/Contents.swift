@@ -20,4 +20,5 @@ struct 某个类型 {
     
 }
 protocol 某协议 {}
-protocol 另一个协议 {}//: [扩展计算属性](@next)
+protocol 另一个协议 {}
+//: [扩展计算属性](@next)

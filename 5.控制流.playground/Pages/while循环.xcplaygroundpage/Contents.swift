@@ -6,7 +6,7 @@
 var i = 1
 var j = 0
 
-while j <= 505050 {
+while j <= 5050 {
     i += 1
     j += i
 }

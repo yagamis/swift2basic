@@ -26,25 +26,25 @@ var 二群友身份证号 : Set = ["333", "456", "666", "12X", "091"]
 二群友身份证号.contains("777")
 
 //:  - ⑤转换为数组:sort
-let 二群友身份证号数组 = 二群友身份证号.sort()
+let 二群友身份证号数组 = 二群友身份证号.sorted()
 
 //:  - 集合操作: 交差并补
 集合操作()
 
-//:  - 1⃣️交集 intersect
-一群友身份证号.intersect(二群友身份证号)
+//:  - 1⃣️交集
+一群友身份证号.intersection(二群友身份证号)
 
 
 
-//:  - 2⃣️差集 subtract
+//:  - 2⃣️差集
 一群友身份证号.subtract(二群友身份证号)
 
-//:  - 3⃣️并集 union
+//:  - 3⃣️并集
 一群友身份证号.union(二群友身份证号)
 
 
-//:  - 4⃣️补集 exclusive
-一群友身份证号.exclusiveOr(二群友身份证号)
+//:  - 4⃣️补集
+一群友身份证号.symmetricDifference(二群友身份证号)
 
 //:  - 集合关系
 集合关系()
@@ -59,19 +59,19 @@ let set100 : Set = [100,101,102]
 let set2 : Set = [4,5,6,7,8]
 
 let set3 : Set = [1,2,3,4,5,4,5,6,7,8]
-//:  - 1⃣️子集: isSubsetOf(可以相等), 严格子集isStrictSubsetOf
-set1.isSubsetOf(set3)
+//:  - 1⃣️子集: isSubset(可以相等), 严格子集isStrictSubset
+set1.isSubset(of: set3)
 
-set1.isSubsetOf(set4)
-set1.isStrictSubsetOf(set4)
+set1.isSubset(of: set4)
+set1.isStrictSubset(of: set4)
 //:  - 2⃣️父集: isSupersetOf(可以相等), 严格父集isStrictSuperSetOf
-set3.isSupersetOf(set1)
-set3.isSupersetOf(set2)
+set3.isSuperset(of: set1)
+set3.isSuperset(of: set2)
 
-set3.isStrictSupersetOf(set1)
+set3.isStrictSuperset(of: set1)
 
-//:  - 3⃣️无交集: isDisjointWith
-set1.isDisjointWith(set100)
+//:  - 3⃣️无交集: isDisjoint
+set1.isDisjoint(with: set100)
 
-set1.isDisjointWith(set2)
+set1.isDisjoint(with: set2)
 //: [字典](@next)
