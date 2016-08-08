@@ -11,7 +11,7 @@ if let sex1 = sex {
 //: 多重绑定 : 一次可以对多个可选变量进行绑定.只需在绑定语句上用逗号分隔.
 var addr: String? = "上海市"
 
-if let sex = sex, addr = addr {
+if let sex = sex, let addr = addr {
     print(sex, addr)
 } else {
     print("用户性别和地址不完善")
@@ -19,7 +19,7 @@ if let sex = sex, addr = addr {
 
 
 //: 绑定判断:加上where语句可以对绑定的结果进行判断.
-if let sex = sex, addr = addr where !sex && addr == "上海市" {
+if let sex = sex, let addr = addr , !sex && addr == "上海市" {
     print(addr, "的美女包邮哦")
 } else {
     print("用户性别和地址不完善")
