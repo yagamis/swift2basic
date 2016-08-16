@@ -9,6 +9,7 @@ if sex == nil {
 }
 
 //: 可选拆包 : 把可选变量中的值解压出来，在变量后加!
+sex = true
 
 if sex! == true {
     print("男性")
