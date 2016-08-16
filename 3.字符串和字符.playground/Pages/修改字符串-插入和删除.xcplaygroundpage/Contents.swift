@@ -1,21 +1,22 @@
 //: 修改字符串-插入和删除
 var a = "小波说雨燕"
-//: - 插入一个字符在指定索引,用insert方法
-a.insert("!", atIndex: a.endIndex)
+//: - 插入一个字符
+a.insert("!", at: a.endIndex)
 
-//: - insertContentsOf插入一个字符串.
-let b = " 之Swift3"
-a.insertContentsOf(b.characters, at: a.endIndex.predecessor())
+//: - 插入一个字符串
+let b = " 3天学会Swift 3"
+a.insert(contentsOf: b.characters, at: a.characters.index(before: a.endIndex))
 
 //: - 删除一个指定索引的字符,用removeAtIndex方法.🌰删除字符串的最后一位.
-a.removeAtIndex(a.endIndex.predecessor())
+a.remove(at: a.characters.index(before: a.endIndex))
 
 a
 
 
 //: - 删除一个范围的子串,用removeRange方法.🌰删除之前添加的字符串
-let 范围 = a.endIndex.advancedBy(-(b.characters.count))..<a.endIndex
-a.removeRange(范围)
+let startIndex = a.characters.index(a.endIndex, offsetBy: -(b.characters.count))
+let 范围 = startIndex..<a.endIndex
+a.removeSubrange(范围)
 
 a
 

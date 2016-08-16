@@ -7,7 +7,7 @@ let 一箱牛奶商品 : Array<String>
 let 一箱豆奶: [String]
 
 //:  - 创建一个有默认值的数组,加参数count和repeatedValue
-let 一箱12盒光明牛奶 = [String](count: 12, repeatedValue: "优创")
+let 一箱12盒光明牛奶 = [String](repeating: "优创", count: 12)
 
 
 
@@ -39,10 +39,10 @@ let 沪杭高铁 = ["嘉兴", "桐乡", "临安", "杭州东站"]
 
 
 //:  - ④↙️插入: insert
-京沪高铁.insert("镇江", atIndex: 6)
+京沪高铁.insert("镇江", at: 6)
 
 //:  - ⑤↗️移除: remove
-京沪高铁.removeAtIndex(11)
+京沪高铁.remove(at: 11)
 
 京沪高铁
 

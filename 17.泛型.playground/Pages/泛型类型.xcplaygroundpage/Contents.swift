@@ -36,13 +36,13 @@ struct Stack<Element> {
 }
 
 var Swift大神 = Stack<String>()
-Swift大神.push("Mattt")
-Swift大神.push("raywenderlich")
-Swift大神.push("鸟叔")
-Swift大神.push("Ying")
-Swift大神.push("xiaobo")
+Swift大神.push(item: "芋头")
+Swift大神.push(item: "萨神")
+Swift大神.push(item: "鸟叔")
+Swift大神.push(item: "阳神")
+Swift大神.push(item: "xiaobo")
 
-let 菜鸟 = Swift大神.pop("xiaobo")
+let 菜鸟 = Swift大神.pop(item: "xiaobo")
 菜鸟
 
 Swift大神

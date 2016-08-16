@@ -22,7 +22,7 @@ var 机场简写对照字典 : [String: String]
 
 
 //:  - ④移除,用下标把值设为nil 或 用removeValueForKey
-机场简写对照字典.removeValueForKey("SHQ")
+机场简写对照字典.removeValue(forKey: "SHQ")
 
 机场简写对照字典
 

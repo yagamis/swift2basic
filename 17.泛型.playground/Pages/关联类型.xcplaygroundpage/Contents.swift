@@ -4,7 +4,7 @@ protocol 容器 {
     associatedtype ItemType
     
     //别名也用于方法和属性,推测参数或返回值类型
-    mutating func append(item: ItemType)
+    mutating func append(_ item: ItemType)
     var count: Int { get }
     subscript(i: Int) -> ItemType { get }
 }
@@ -23,8 +23,8 @@ struct IntStack : 容器{
     //别名类型自动推测,无需明示
     //typealias ItemType = Int
     
-    mutating func append(item: Int) {
-        self.push(item)
+    mutating func append(_ item: Int) {
+        self.push(item: item)
     }
     
     var count: Int {
@@ -33,7 +33,7 @@ struct IntStack : 容器{
     
     subscript(i: Int) -> Int {
         return items[i]
-    }  
+    }
 }
 
 //Element自动推测
@@ -48,8 +48,8 @@ struct Stack<Element>: 容器 {
         return items.removeLast()
     }
     
-    mutating func append(item: Element) {
-        self.push(item)
+    mutating func append(_ item: Element) {
+        self.push(item: item)
     }
     
     var count: Int {

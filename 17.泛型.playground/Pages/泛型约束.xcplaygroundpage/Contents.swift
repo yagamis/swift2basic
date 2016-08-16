@@ -5,7 +5,7 @@
 
 
 func 查位置<Element: Equatable>(文本数组:[Element], 待查元素:Element) -> Int? {
-    for (位置, 值) in 文本数组.enumerate() {
+    for (位置, 值) in 文本数组.enumerated() {
         if 值 == 待查元素 {
             return 位置
         }
@@ -14,5 +14,5 @@ func 查位置<Element: Equatable>(文本数组:[Element], 待查元素:Element)
 }
 
 
-查位置(["刘备","关羽","张飞","孔明"], 待查元素: "孔明")
+查位置(文本数组: ["刘备","关羽","张飞","孔明"], 待查元素: "孔明")
 //: [关联类型](@next)

@@ -4,12 +4,12 @@ protocol 容器 {
     associatedtype ItemType
     
     //别名也用于方法和属性,推测参数或返回值类型
-    mutating func append(item: ItemType)
+    mutating func append(_ item: ItemType)
     var count: Int { get }
     subscript(i: Int) -> ItemType { get }
 }
 
-func 完全匹配<C1: 容器, C2: 容器 where C1.ItemType == C2.ItemType, C1.ItemType: Equatable >(容器1: C1, 容器2: C2) -> Bool {
+func 完全匹配<C1: 容器, C2: 容器>(_ 容器1: C1, _ 容器2: C2) -> Bool where C1.ItemType == C2.ItemType, C1.ItemType: Equatable  {
     if 容器1.count != 容器2.count {
         return false
     }
@@ -29,6 +29,6 @@ array2.append(1)
 array2.append(2)
 array2.append(3)
 
-完全匹配(array2, 容器2: array1)
+完全匹配(array2, array1)
 
 

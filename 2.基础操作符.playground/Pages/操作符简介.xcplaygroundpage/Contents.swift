@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 基础操作符
@@ -12,8 +12,7 @@
 
 //:  - 数学操作符 +,-,*,/,%等可以检测溢出.
 
-
-//:  - Swift可以对浮点数求余数 (%). 同时提供区间操作符.
+//:  - 浮点数也可以求余 (reminder方法). 同时提供区间操作符.
 
 
 //:

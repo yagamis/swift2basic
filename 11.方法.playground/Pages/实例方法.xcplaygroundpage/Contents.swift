@@ -1,5 +1,5 @@
 //: ----
-//:  - [小波说雨燕 Swift语法简明版](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //:  - 方法是一个类/结构体/枚举关联的函数. 分为实例方法和类型方法.

@@ -29,7 +29,7 @@ struct MyText {
 
 extension MyText: CustomStringConvertible {}
 
-let text1 = MyText(text: "小波说Swift 2")
+let text1 = MyText(text: "3天学会Swift 3")
 
 print(text1)
 
