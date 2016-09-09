@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='课程说明'/>
         <page name='Swift初印象'/>
-        <page name='师出名门'/>
+        <page name='历史'/>
         <page name='编程思想的创新'/>
         <page name='Playground 互动方式的创新'/>
         <page name='对非英语母语人群的益处'/>
         <page name='苹果的目标'/>
-        <page name='参考资源和学习周期'/>
         <page name='编程处女航'/>
         <page name='常量'/>
         <page name='常量的定义方法和命名规则'/>

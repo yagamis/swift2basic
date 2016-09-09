@@ -5,7 +5,7 @@
 //: ----
 //:  - 练习环境：
 //:  - ①IBM的Swift 在线沙盒 [swiftlang.ng.bluemix.net](http://swiftlang.ng.bluemix.net/)
-//:  - ②XCode: 8.0 beta 6
+//:  - ②XCode: 8.0
 //: ----
 //:
 //:  - [Swift初印象>](@next)

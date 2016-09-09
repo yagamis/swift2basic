@@ -1,10 +1,10 @@
-//: 元组(Tuple): 多个值的随意组合,临时使用.
+//: 元组(Tuple): 多个值的组合.
 
 //: - 定义: 圆括号内,各个值用逗号分开.
-("xiaobo",300,"黄钻",4)
+("xiaobo",300,"🏅",4)
 
 //: - 定义时,值前可以加前缀,以冒号分开
-let xiaobotaobao = (user:"xiaobo", account: 300, title: "黄钻", level:4)
+let xiaobotaobao = (user:"xiaobo", account: 300, title: "🏅", level:4)
 
 //: - 要获取其中的某个值,用序号或前缀
 xiaobotaobao.title
