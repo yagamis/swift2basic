@@ -1,7 +1,10 @@
-//: 布尔型: Bool  用来表示逻辑上的"真"或"假"，通常用于判断条件是否成立
+//: 布尔型: Bool, 表示逻辑上的"真"或"假"
 //: - 只有2个值,true 和 false
+var 资金充足情况 : Bool = true
 
-var 开关 = true
+资金充足情况 = false
 
+var vip = false
+vip = true
 
-//: [元组](@next)
+//: [>](@next)
