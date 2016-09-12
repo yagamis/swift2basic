@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
-        <page name='字符串和字符简介'/>
+        <page name='简介'/>
         <page name='字符串字面量'/>
         <page name='字符'/>
         <page name='连接字符串和字符'/>
         <page name='字符串插值'/>
-        <page name='特殊字符'/>
-        <page name='字符计数'/>
-        <page name='修改字符串-索引'/>
-        <page name='修改字符串-插入和删除'/>
-        <page name='比较字符串'/>
+        <page name='特殊字符(选修)'/>
+        <page name='字符计数(选修)'/>
+        <page name='字符串索引(选修)'/>
+        <page name='插入和删除(选修)'/>
+        <page name='比较字符串(选修)'/>
     </pages>
 </playground>
