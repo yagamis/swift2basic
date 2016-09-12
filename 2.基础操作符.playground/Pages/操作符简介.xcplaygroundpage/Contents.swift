@@ -1,21 +1,11 @@
 //: ----
 //:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
-//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
+//:  - 课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 基础操作符
 //:
 //: ----
 //:
-//:  - 操作符是一个特殊符号或短语,类似数学中的运算符
-
-//:  - 简单的如:加法操作符, 复杂的有逻辑操作符等
-
-//:  - 数学操作符 +,-,*,/,%等可以检测溢出.
-
-//:  - 浮点数也可以求余 (reminder方法). 同时提供区间操作符.
-
-
+//:  - 一个符号或单词,类似数学中的 + - * /
 //:
-//: ----
-//:
-//:  [术语>](@next)
+//:  [>](@next)
