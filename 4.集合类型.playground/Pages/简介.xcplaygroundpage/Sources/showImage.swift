@@ -1,5 +1,5 @@
 import UIKit
 
-public func 图解() -> UIImage?{
+public func demo() -> UIImage?{
     return UIImage(named: "CollectionTypes_intro_2x")
 }

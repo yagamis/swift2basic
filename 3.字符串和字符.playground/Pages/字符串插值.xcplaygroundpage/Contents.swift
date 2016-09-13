@@ -4,7 +4,7 @@ let type = "G"
 let number = 11
 let price = 158.5
 
-let 订票提示 = "先生, 您订购了的往返票,需支付元."
+let 订票提示 = "\(name)先生, 您订购了\(type)\(number)的往返票,需支付\(price * 2)元."
 
 
 //: [>](@next)

@@ -4,6 +4,10 @@
 
 let 女朋友数量 = 10
 
+Int.max
+Int.min
+
+
 let 工资 = 50000
 
 

@@ -2,50 +2,42 @@
 //:  - 有序可重复,用于存储同一类型的值.
 
 //:  - 定义: Array<类型> 或 [类型]
-let 一箱牛奶商品 : Array<String>
+let array : [Int]
 
-let 一箱豆奶: [String]
-
-//:  - 创建一个有默认值的数组,加参数count和repeatedValue
-let 一箱12盒光明牛奶 = [String](repeating: "优创", count: 12)
-
-
-
+//:  - 创建一个有默认值的数组
+array = [Int](repeatElement(3, count: 10))
 //:  - ⚡️创建一个有序范围的Int数组,Array(起始值...终止值)
-let 一到一百 = Array(1...100)
-
+let array2 = Array(1...10)
 
 
 //:  - ⚡️💡用数组字面量来创建数组: [值1, 值2, 值3, ..., 值N]
-var 京沪高铁 = ["北京南站","天津","济南","郑州","蚌埠","南京南","常州","苏州","昆山","上海虹桥"]
+var places = ["beijing","shanghai","guangzhou","shenzhen"]
 
 
 //:  - ①元素计数:count, 空否: isEmpty
-京沪高铁.count
-京沪高铁.isEmpty
+places.count
+places.isEmpty
 
 //:  - ②➕添加: append, 添加一个同类型数组 +=
+places.append("wuhan")
 
-京沪高铁.append("上海南站")
+let haiwaiPlace = ["NewYork","London","Sao paolu"]
 
-let 沪杭高铁 = ["嘉兴", "桐乡", "临安", "杭州东站"]
-
-
-京沪高铁 += 沪杭高铁
+places += haiwaiPlace
 
 
 //:  - ③获取元素 : 数组名[索引], ⚠️索引总是从0开始
-京沪高铁[12]
+places.count
+places[7]
 
 
 //:  - ④↙️插入: insert
-京沪高铁.insert("镇江", at: 6)
+places.insert("Paris", at: 4)
 
 //:  - ⑤↗️移除: remove
-京沪高铁.remove(at: 11)
+places.remove(at: 8)
 
-京沪高铁
+places
 
 
-
-//: [集合(Set)](@next)
+//: [>](@next)
