@@ -5,7 +5,7 @@
         <page name='for循环'/>
         <page name='while循环'/>
         <page name='控制转移语句'/>
-        <page name='早退语句'/>
-        <page name='if和Switch语句'/>
+        <page name='早退语句(选修)'/>
+        <page name='判断语句if和switch'/>
     </pages>
 </playground>
