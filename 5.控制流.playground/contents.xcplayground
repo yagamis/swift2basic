@@ -4,8 +4,8 @@
         <page name='简介'/>
         <page name='for循环'/>
         <page name='while循环'/>
-        <page name='控制转移语句'/>
+        <page name='if和循环控制语句'/>
         <page name='早退语句(选修)'/>
-        <page name='判断语句if和switch'/>
+        <page name='switch'/>
     </pages>
 </playground>
