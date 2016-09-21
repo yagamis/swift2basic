@@ -1,33 +1,34 @@
 //: 定义和使用 ：
 //:  - 给定一个名称, 然后把每一种情况列举出来.
-enum 天气 {
-    case 晴
-    case 阴
-    case 雨
-    case 霾
-    case 冰雹
-    case 雪
-    case 雾
+enum Weather {
+    case sunny
+    case cloudy
+    case rainy
+    case snow
+    case froggy
 }
+
+
 
 //:  - 使用：点语法
-天气.雪
+Weather.cloudy
+
 
 //:  - 与switch配合使用。如果变量是枚举值，可省略枚举名
-let 上海今日天气 = 天气.晴
+var todayweather = Weather.sunny
 
-switch 上海今日天气 {
-case .霾 :
-    print("今日有霾")
-case .晴 :
-    print("天气不错")
+switch todayweather {
+case .cloudy:
+    print("今天天气多云")
+case .sunny:
+    print("天气晴朗")
 default:
-    break
+    print("天气状况未知")
 }
 
 
 
-//:  - 附加（或关联）值: 每一种类型都可附加一个或多个值，形式是元组。 🌰case 类型(Int,String,...)
+//:  - 附加值(选修): 每一种类型都可附加一个或多个值，形式是元组。 🌰case 类型(Int,String,...)
 enum 精确天气 {
     case 晴(Int, Int, String)
     case 霾(String, Int)
