@@ -66,11 +66,11 @@ menu1.count
 //: - 4⃣️可失败构造器：针对有可能的初始化失败，返回nil。🌰初始化一张图片，如果图片名不存在，则初始化失败。
 import UIKit
 
-let hcxySlogn = UIImage(named: "logo")
+let ball =  UIImage(named: "ball")
 
-let hcxyBanner = UIImage(named: "banner.jpg")
+let ball2 =  UIImage(named: "ball2")
 
-hcxyBanner!.description
+
 
 
 struct Animal {
