@@ -17,7 +17,7 @@ func aFoo() throws {
 try aFoo()
 
 
-//: - 处理更细分的错误情况，错误类型须遵从ErrorType协议。
+//: - 处理更细分的错误情况，错误类型须遵从Error协议。
 enum 学习障碍: Error {
     case 没方法, 不想看书, 缺学习工具(tool: String)
 }
@@ -78,7 +78,7 @@ func pk() {
    
     
     print("Fight！")
-    print("xiaobo VS lovely千与千寻")
+    print("xiaobo VS dabo")
 }
 
 pk()
