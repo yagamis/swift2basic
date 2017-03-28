@@ -1,10 +1,9 @@
-//:  3天学会Swift 3.0
+//:  3天学会Swift 3.1
 //:  练习环境：
-//:  - (推荐)XCode ≥ 8.0 GM版或[Swift Sandbox](在线)(http://swiftlang.ng.bluemix.net/)
-//:  课程支持：
-//:  - 微信：小波说雨燕 QQ:41359833
-//:  - 课件源码：[github.com/yagamis/swift2basic](http://github.com/yagamis/swift2basic)
-//:  - [0到iOS中级路线图](www.xiaoboswift.com/roadmap)
+//:  - (推荐)XCode 8.3或[Swift Sandbox](http://swiftlang.ng.bluemix.net/)
+//:  - 微信公共号：小波说雨燕 QQ:41359833
+//:  - 课件源码：[github](http://github.com/yagamis/swift2basic)
+//:  - [0基础到iOS中级](http://blog.xiaoboswift.com/roadmap)
 //: ----
 
 
