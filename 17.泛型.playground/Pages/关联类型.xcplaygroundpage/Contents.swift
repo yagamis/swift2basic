@@ -1,9 +1,9 @@
-//: 关联类型:定义协议时,有时需要定义一个或多个关联类型作辅助. 关联类型有一个别名.
+//: 关联类型:定义协议时,有时需要定义一个或多个泛型作辅助，用关键字associatedtype指定
 protocol 容器 {
-    //未指定是谁的别名, 留给遵从此协议的类型提供
+    //提供给遵从此协议的类型使用
     associatedtype ItemType
     
-    //别名也用于方法和属性,推测参数或返回值类型
+    //可用于方法和属性,推测参数或返回值类型
     mutating func append(_ item: ItemType)
     var count: Int { get }
     subscript(i: Int) -> ItemType { get }
@@ -16,16 +16,14 @@ struct IntStack : 容器{
         items.append(item)
     }
     
-    mutating func pop(item: Int) ->Int {
+    mutating func pop() ->Int {
         return items.removeLast()
     }
-    
-    //别名类型自动推测,无需明示
-    //typealias ItemType = Int
     
     mutating func append(_ item: Int) {
         self.push(item: item)
     }
+    
     
     var count: Int {
         return items.count
@@ -44,7 +42,7 @@ struct Stack<Element>: 容器 {
         items.append(item)
     }
     
-    mutating func pop(item: Element) ->Element {
+    mutating func pop() -> Element {
         return items.removeLast()
     }
     
@@ -56,7 +54,7 @@ struct Stack<Element>: 容器 {
         return items.count
     }
     
-    subscript(i:Int) ->Element {
+    subscript(i:Int) -> Element {
         return items[i]
     }
 }

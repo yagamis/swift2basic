@@ -1,6 +1,5 @@
 //: ----
-//:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
-//:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
+//:  - [小波说雨燕 3天学会Swift 3.1](http://www.xiaoboswift.com)
 //: ----
 //: - 属性是一个类/结构体/枚举关联的变量.
 //: - 实例属性: 实例化后才能使用。

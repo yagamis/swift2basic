@@ -10,6 +10,8 @@ protocol 容器 {
 }
 
 func 完全匹配<C1: 容器, C2: 容器>(_ 容器1: C1, _ 容器2: C2) -> Bool where C1.ItemType == C2.ItemType, C1.ItemType: Equatable  {
+    //因为完全匹配算法，只要有一个元素不相等，运算就结束，所以优先筛选出不相等的条件出来
+    
     if 容器1.count != 容器2.count {
         return false
     }

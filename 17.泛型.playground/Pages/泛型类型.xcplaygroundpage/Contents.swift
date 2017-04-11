@@ -3,7 +3,7 @@
 import UIKit
 UIImage(named: "草堆.jpg")
 
-//:  - 草堆使用规则: 往上压草(push); 往下拿草(pop). 就像app中普遍的导航, 有进入详情页(push)和返回到上一页(pop).
+//:  - 草堆使用规则: 先堆完，然后从下抽取（先进先出）. 计算机中的堆不同的是，后进先出，App中的导航, 有进入详情页(push)和返回到上一页(pop).
 UIImage(named: "pushpop")
 
 //1. 堆中有3个值
@@ -18,7 +18,7 @@ struct IntStack {
         items.append(item)
     }
     
-    mutating func pop(item: Int) ->Int {
+    mutating func pop() ->Int {
         return items.removeLast()
     }
 }
@@ -30,7 +30,7 @@ struct Stack<Element> {
         items.append(item)
     }
     
-    mutating func pop(item: Element) ->Element {
+    mutating func pop() ->Element {
         return items.removeLast()
     }
 }
@@ -42,7 +42,7 @@ Swift大神.push(item: "鸟叔")
 Swift大神.push(item: "阳神")
 Swift大神.push(item: "xiaobo")
 
-let 菜鸟 = Swift大神.pop(item: "xiaobo")
+let 菜鸟 = Swift大神.pop()
 菜鸟
 
 Swift大神
