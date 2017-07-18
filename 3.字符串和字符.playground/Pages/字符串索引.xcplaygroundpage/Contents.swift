@@ -32,4 +32,4 @@ for b in a.indices {
     print(a[b], terminator: "-")
 }
 
-//: [修改字符串-插入和删除](@next)
+//: [>](@next)

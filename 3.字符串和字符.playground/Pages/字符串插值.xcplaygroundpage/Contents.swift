@@ -9,10 +9,9 @@ let destination = "洛阳"
 let price = 380
 
 let msg = """
-尊敬的\(name)乘客,您已订购\(type)\(number)
-\(departure)到\(destination)的往返票,
-需支付\(price * 2)元。
+尊敬的\(name)乘客,您已订购\(type)\(number)\(departure)到\(destination)的往返票,需支付\(price * 2)元。
 """
 
+print(msg)
 
 //: [>](@next)
