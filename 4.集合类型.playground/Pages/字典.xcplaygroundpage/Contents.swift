@@ -4,7 +4,7 @@ var a: Dictionary<String,String>
 var b: [String:String]
 
 //:  - 用字典字面量来创建字典, 键与值之间用冒号隔开.
-var airports = ["PVG":"Shanghai Pudong", "CHU":"Dalian", "DUB":"Dublin Airport"]
+var airports = ["PVG":"浦东国际机场", "CHU":"Dalian", "DUB":"Dublin Airport"]
 //:  - ①计数: count, 空否: isEmpty
 airports.count
 airports.isEmpty
@@ -12,8 +12,8 @@ airports.isEmpty
 
 
 //:  - ②添加或更新: 字典变量[键] = 值
-airports["SHQ"] = "Hongqiao Airport"
-airports["CHU"] = "大连周水子机场"
+airports["SHQ"] = "上海虹桥国际机场"
+airports["CHU"] = "大连周水子国际机场"
 
 
 airports

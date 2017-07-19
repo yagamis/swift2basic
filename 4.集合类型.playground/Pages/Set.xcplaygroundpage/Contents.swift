@@ -4,13 +4,15 @@
 var cardno : Set = [1,2,3]
 
 //:  - 用数组字面量创建集合
-var citys : Set = ["Shanghai","Beijing","wuhan","Hef"]
-//:  - ①元素计数: count, 空否: isEmpty
+var citys : Set = ["Shanghai","Beijing","Wuhan","Hefei"]
+
+//:  - ①元素数: count, 空否: isEmpty
 citys.count
 cardno.isEmpty
 
 //:  - ②插入:insert
-citys.insert("guangzhou")
+citys.insert("Guangzhou")
+
 //:  - ③移除:remove
 citys.remove("Shanghai")
 
@@ -22,24 +24,25 @@ citys.contains("Beijing")
 //:  - ⑤转换为数组:sorted
 let cityArray = citys.sorted()
 
-
 //:  - 集合间的运算: 交差并补
 setdemo()
 
-//:  - 1⃣️交集 intersection
+
 var  x :Set = [1,2,3,4]
 let  y :Set = [3,4,5,6]
 
+//:  - 交集 intersection
 x.intersection(y)
 
-//:  - 2⃣️差集 subtract
-
-//x.subtract(y)
-//:  - 3⃣️并集 union
-//x.union(y)
-
-//:  - 4⃣️补集 symmetricDifference
+//:  - 补集 symmetricDifference
 x.symmetricDifference(y)
+
+//:  - 差集 subtract
+x.subtract(y)
+
+//:  - 并集 union
+x.union(y)
+
 
 //:  - 集合间的关系
 setRelation()
@@ -50,13 +53,15 @@ let h : Set = [1,2,3]
 let i : Set = [3,2,1,4]
 
 h == i
-//:  - 1⃣️子集: isSubset(可以相等), 严格子集isStrictSubset
+//:  - ①子集: isSubset(可以相等), 严格子集isStrictSubset
 h.isSubset(of: i)
 h.isStrictSubset(of: i)
-//:  - 2⃣️父集: isSupersetOf(可以相等), 严格父集isStrictSuperSetOf
+
+//:  - ②父集: isSupersetOf(可以相等), 严格父集isStrictSuperSetOf
 i.isSuperset(of: h)
 i.isStrictSuperset(of: h)
-//:  - 3⃣️无交集: isDisjoint
+
+//:  - ③无交集: isDisjoint
 let j : Set = ["游戏","动漫"]
 let k : Set = ["购物","小吃","化妆"]
 

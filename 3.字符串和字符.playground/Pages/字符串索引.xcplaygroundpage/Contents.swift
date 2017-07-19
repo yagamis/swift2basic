@@ -27,9 +27,8 @@ a[a.index(before: a.endIndex)]
 a[a.index(a.startIndex, offsetBy: 3)]
 
 //: - 字符串的indices属性表示索引的区间.
-for b in a.indices {
-//    print(a[b])
-    print(a[b], terminator: "-")
+for index in a.indices {
+    print(a[index])
 }
 
 //: [>](@next)
