@@ -30,13 +30,25 @@ topLang.count
 topLang[7]
 
 
-//:  - ④↙️插入: insert
+//:  - ④插入: insert
 topLang.insert("Swift", at: 4)
 
-//:  - ⑤↗️移除: remove
+//:  - ⑤移除: remove
 topLang.remove(at: 8)
 
 topLang
 
+//:  - 高阶操作①: 求和，连接元素， reduce
+let topLangNewsTitle = topLang.reduce("编程语言排行榜：") { $0 + "，" + $1 }
+topLangNewsTitle
+
+let numbers = [1,2,3]
+let sum = numbers.reduce(0) { $0 + $1 }
+sum
+
+
+//:  - 高阶操作②: 变形 map
+let numbersToStr = numbers.map { "数字：\($0)" }
+numbersToStr
 
 //: [>](@next)
