@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='简介'/>
         <page name='for循环'/>
         <page name='while循环'/>
         <page name='if和循环控制语句'/>
-        <page name='早退语句(选修)'/>
+        <page name='早退语句'/>
         <page name='switch'/>
     </pages>
 </playground>

@@ -14,3 +14,6 @@ func multiply(x: Int, y: Int) -> Int {
 
 calculate(x: 3, y: 4, method: add)
 calculate(x: 5, y: 6, method: multiply)
+
+//函数型的简写形式 ： 闭包表达式
+calculate(x: 30, y: 20) { $0 - $1 }

@@ -2,7 +2,7 @@
 
 //: 循环中的判断
 //: - continue 结束本次循环, break 结束整个循环
-var temp = 23
+var temp = 39
 
 if temp > 35 {
     print("开空调")
@@ -10,15 +10,15 @@ if temp > 35 {
     print("不开空调")
 }
 
-var money = false
+var isRich = false
 
-if money {
-    print("买车买房")
+if isRich {
+    print("迎娶白富美")
 } else {
-    print("注孤生")
+    print("奋斗吧少年")
 }
 
-for i in 1...10 {
+for i in 1...5 {
     if i == 3 {
         continue
     }
