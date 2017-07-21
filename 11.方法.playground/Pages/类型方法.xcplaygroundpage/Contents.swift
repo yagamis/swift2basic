@@ -1,37 +1,24 @@
-//: 类型方法 :属于类型本身,无需实例化就可以使用.
+//: 类型方法 : 属于类型本身通用的方法, 与具体的实例无关。 在方法前加static
 //: - ⚠️对于类, 加关键字class. 可被子类重写(override)
-class 玩家 {
-    static var 姓名 = "小波"
+class China {
+    static var countryName = "中国"
     
-    class func 服务器名() {
-        print("\(姓名),您在北京联通一区!")
+    class func greetings() {
+        print("\(countryName)欢迎您！")
     }
 }
 
-class 上海服务器玩家:玩家 {
-    override class func 服务器名() {
-        print("\(姓名),您现在上海电信2区!")
+class Anhui : China {
+    static let proviceName = "安徽"
+    
+    override class func greetings() {
+        print("\(countryName)\(proviceName),欢迎您!")
     }
 }
 
-let 土豪玩家1 = 上海服务器玩家()
-
-let a :String = "a"
-
-上海服务器玩家.服务器名()
-
-玩家.服务器名()
-
-//: - 💡结构体和枚举, 关键字 static
-struct  复活 {
-    static var hp = 100
-    static func 复活点(当前区域:String) {
-        print("您在\(当前区域)复活,HP是\(hp)")
-    }
-}
+China.greetings()
+Anhui.greetings()
 
 
-
-复活.复活点(当前区域: "盟重省安全区")
 
 //: [](@next)
