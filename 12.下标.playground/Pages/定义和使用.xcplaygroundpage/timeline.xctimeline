@@ -3,18 +3,24 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1883&amp;EndingColumnNumber=3&amp;EndingLineNumber=20&amp;StartingColumnNumber=1&amp;StartingLineNumber=20&amp;Timestamp=493027700.927411"
+         documentLocation = "file:///Users/yons/Documents/swift2basic/12.%E4%B8%8B%E6%A0%87.playground/Pages/%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8.xcplaygroundpage#CharacterRangeLen=0&amp;CharacterRangeLoc=1747&amp;EndingColumnNumber=8&amp;EndingLineNumber=91&amp;StartingColumnNumber=8&amp;StartingLineNumber=91&amp;Timestamp=522326925.604728"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1883&amp;EndingColumnNumber=4&amp;EndingLineNumber=20&amp;StartingColumnNumber=1&amp;StartingLineNumber=20&amp;Timestamp=493027700.927688"
+         documentLocation = "file:///Users/yons/Documents/swift2basic/12.%E4%B8%8B%E6%A0%87.playground/Pages/%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8.xcplaygroundpage#CharacterRangeLen=0&amp;CharacterRangeLoc=1747&amp;EndingColumnNumber=8&amp;EndingLineNumber=91&amp;StartingColumnNumber=8&amp;StartingLineNumber=91&amp;Timestamp=522326925.604819"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=12&amp;CharacterRangeLoc=1563&amp;EndingColumnNumber=13&amp;EndingLineNumber=74&amp;StartingColumnNumber=1&amp;StartingLineNumber=74&amp;Timestamp=493027700.927904"
+         documentLocation = "file:///Users/yons/Documents/swift2basic/12.%E4%B8%8B%E6%A0%87.playground/Pages/%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8.xcplaygroundpage#CharacterRangeLen=12&amp;CharacterRangeLoc=1427&amp;EndingColumnNumber=9&amp;EndingLineNumber=64&amp;StartingColumnNumber=10&amp;StartingLineNumber=63&amp;Timestamp=522326925.604887"
          lockedSize = "{184, 274}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/yons/Documents/swift2basic/12.%E4%B8%8B%E6%A0%87.playground/Pages/%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8.xcplaygroundpage#CharacterRangeLen=11&amp;CharacterRangeLoc=622&amp;EndingColumnNumber=9&amp;EndingLineNumber=32&amp;StartingColumnNumber=19&amp;StartingLineNumber=31&amp;Timestamp=522326925.604957"
+         lockedSize = "{295, 50}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

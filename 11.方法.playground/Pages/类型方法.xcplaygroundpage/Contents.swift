@@ -19,6 +19,3 @@ class Anhui : China {
 China.greetings()
 Anhui.greetings()
 
-
-
-//: [](@next)

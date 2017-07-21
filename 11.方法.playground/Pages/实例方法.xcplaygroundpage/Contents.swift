@@ -35,9 +35,4 @@ struct Dressing {
 let todayDress = Dressing(emotion: .happy)
 todayDress.color()
 
-//: ----
-//:
-
-
-
-//:  [类型方法](@next)
+//:  [>](@next)
