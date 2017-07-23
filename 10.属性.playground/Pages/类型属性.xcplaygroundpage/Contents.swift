@@ -21,6 +21,8 @@ class Human: Unicelluar {
 
 Human.inherit
 
+
+
 //: - 💡结构体和枚举, 关键字 static
 struct Shopping {
     static let brand = "UNIClO"

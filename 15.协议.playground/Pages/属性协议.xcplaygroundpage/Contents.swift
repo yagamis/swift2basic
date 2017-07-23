@@ -1,53 +1,41 @@
-//: 属性协议：顾名思义，要求遵从者实现以指定的名称实现属性，但具体实现是实例属性或类型属性并不关心。
-//:  - 可以指定要求实现getter 或 getter+setter。 属性必须定义为变量，var。
-//实例属性协议
-protocol 文件权限{
-    var 读写: Int { get set }
-    var 只读: Int { get }
+//: 属性协议：顾名思义，遵从者要实现协议规定的属性。
+//:  - 属性必须定义为变量。 setter可选实现。
+protocol Nameable {
+    var nick: String { get }
+    var title : String { get }
 }
 
-//类型属性协议
-protocol 直播地址 {
-    static var link: String { get }
+enum Grade {
+    case primary, middle
 }
 
-//:  - 遵从实例属性协议🌰1
-protocol 全名 {
-    var 姓: String { get }
-    var 名: String { get }
-}
+//:  - 遵从属性协议: 必须要实现其规定的属性
+struct Student: Nameable {
+    var grade : Grade
+    var nick: String
 
-struct 学生: 全名 {
-    var 姓: String
-    var 名: String
-}
-
-var 学生1 = 学生(姓: "小", 名: "波")
-学生1.名
-学生1.姓
-
-
-//:  - 遵从实例属性协议🌰2
-class 人物: 全名 {
-    var 名头: String?
-    var 人物名: String
-    
-    init(名头:String?, 人物名: String) {
-        self.名头 = 名头
-        self.人物名 = 人物名
-    }
-    
-    var 姓: String {
-        return 名头 ?? ""
-    }
-    
-    var 名: String {
-        return 人物名
+    var title: String {
+        switch grade {
+        case .primary:
+            return "小学生" + nick
+        case .middle:
+            return "中学生" + nick
+        }
     }
 }
 
-var 人物1 = 人物(名头: "战神", 人物名: "小波")
+let xiaoming = Student(grade: .primary, nick: "晓明明")
+xiaoming.title
 
-人物1.姓
-人物1.名
-//: [方法协议](@next)
+//这个例子的好处在哪里？ 把名字相关属性从Student分离
+struct Teacher: Nameable {
+    var nick: String
+    var title: String {
+        return nick + "老师"
+    }
+}
+
+let wanglaoshi = Teacher(nick: "老王")
+wanglaoshi.title
+
+//: [>](@next)

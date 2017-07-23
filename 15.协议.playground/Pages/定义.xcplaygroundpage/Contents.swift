@@ -1,33 +1,24 @@
 //: ----
-//:  - [小波说雨燕 3天学会Swift 3](http://www.xiaoboswift.com)
+//:  - [小波说雨燕 3天学会Swift 4](http://www.xiaoboswift.com)
 //:  - 全集课件：[github.com/yagamis](http://github.com/yagamis/swift2basic)
 //: ----
 //: 协议：方法、属性或一段功能的蓝本。
-//: - 协议可被类、结构体和枚举“领养”从而“长大成人”.
-//: - 任何满足协议的“需求”的类型，被称为“遵从”该协议。
-protocol 某协议 {
-    
-}
+//: - 任意类型都可以“领养”协议，从而实现蓝本； 也称“遵从”该协议。
+//: - Swift的特色：面向协议编程， 鼓励多“领养”协议来替代类继承。 因为“领养”的代价远低于继承。
 
-protocol 另一个协议 {
-    
-}
+//空协议
+protocol HouseAffordable {}
+protocol CarAffordable {}
 
 //: - “领养/遵从”若干个协议，用逗号分隔
-struct 某个结构体: 某协议, 另一个协议 {
-    
-}
+struct Marriage: HouseAffordable, CarAffordable {}
 
-//: - 超类在协议之前
-class 父类 {
-    
-}
+//: - 如果同时有继承和遵从协议，协议写在父类之后。
+class Father {}
 
-class 子类: 父类, 某协议, 另一个协议 {
-    
-}
+class Son: Father, HouseAffordable, CarAffordable {}
 
-//: [属性协议](@next)
+//: [>](@next)
 
 
 
