@@ -35,5 +35,4 @@ wish2(person: wang)
 let xiaoming = Student(age: 12, fullName: "晓明")
 wish(person: xiaoming)
 
-
 //: [>](@next)

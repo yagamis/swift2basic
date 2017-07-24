@@ -32,10 +32,7 @@ func iOSDev(hasWay: Bool, byReading: Bool, hasTool: Bool) throws {
         throw LearningError.lack(tool: "Mac电脑")
     }
 }
-
 var funds = 5000
-
-
 func buy(_ tool: String) {
     if funds >= 6000 {
         funds -= 6000
@@ -46,7 +43,7 @@ func buy(_ tool: String) {
 }
 
 do {
-    try iOSDev(hasWay: true, byReading: true, hasTool: true)
+    try iOSDev(hasWay: false, byReading: true, hasTool: true)
     print("恭喜你迈出了学习的第一步")
 } catch LearningError.noWay {
     print("看xiaoboswift.com")
@@ -62,6 +59,23 @@ if let _ = try? iOSDev(hasWay: true, byReading: false, hasTool: true) {
 } else {
     print("条件不足，无法开始学习！")
 }
+
+var address : String?
+if address == nil {
+    print("您的地址没有填")
+} else {
+    print(address!)
+}
+
+if let address = address {
+    print(address)
+} else {
+    print("您没有填写地址！")
+}
+
+let addr2 = address ?? "无地址"
+addr2
+
 
 try! iOSDev(hasWay: true, byReading: true, hasTool: true)
 
