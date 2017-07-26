@@ -1,16 +1,10 @@
 //: 泛型类型: 可以自定义泛型类型, 如适应任何类型参数的类/结构体/枚举等, 像数组和字典一样.
-//:  - 🌰创建一个新泛型类型: Stack(堆).
-import UIKit
-UIImage(named: "草堆.jpg")
+//:  - 🌰创建一个类型: Stack(堆).
+//:  - 堆使用规则: 后进（push）先出(pop)
+//💡压一个值进堆顶，作为后进的值。
+//💡堆顶的值可以被推出。
 
-//:  - 草堆使用规则: 先堆完，然后从下抽取（先进先出）. 计算机中的堆不同的是，后进先出，App中的导航, 有进入详情页(push)和返回到上一页(pop).
-UIImage(named: "pushpop")
-
-//1. 堆中有3个值
-//2. 第4个值是被"压"(push)进堆顶.
-//3. 堆保持了4个值,最近一个值在堆顶.
-//4. 堆顶的一项被拿掉(pop).
-//5. 移掉后堆中还是3个值.
+//Int堆
 struct IntStack {
     var items = [Int]()
     
@@ -23,27 +17,29 @@ struct IntStack {
     }
 }
 
-struct Stack<Element> {
-    var items = [Element]()
+//泛型Stack
+struct Stack<T> {
+    var items = [T]()
     
-    mutating func push(item: Element) {
+    mutating func push(item: T) {
         items.append(item)
     }
     
-    mutating func pop() ->Element {
+    mutating func pop() -> T {
         return items.removeLast()
     }
 }
 
-var Swift大神 = Stack<String>()
-Swift大神.push(item: "芋头")
-Swift大神.push(item: "萨神")
-Swift大神.push(item: "鸟叔")
-Swift大神.push(item: "阳神")
-Swift大神.push(item: "xiaobo")
+var topLang = Stack<String>()
+topLang.push(item: "Swift")
+topLang.push(item: "Kotlin")
+topLang.push(item: "Javascript")
+topLang.push(item: "Python")
 
-let 菜鸟 = Swift大神.pop()
-菜鸟
+let thisYearTop = topLang.pop()
 
-Swift大神
-//: [泛型约束](@next)
+topLang
+
+//作业：创建一个自定义的泛型类型（30分钟）
+
+//: [>](@next)

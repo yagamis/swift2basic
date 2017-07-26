@@ -1,23 +1,16 @@
-//: 泛型函数: 可以用匹配任何类型
+//: 泛型函数: 让参数由单一类型，扩展成“广泛的”类型
 
-//:  - 用一个占位符（T）,取代原具体类型,函数名后加<T>，如果要用到不止一个占位符，可以用UVW等后续字母或任意字符.
-//打印任意数组元素
-func printAny<T>(数组: [T]) {
-    for 元素 in 数组 {
-        print(元素)
+//:  - 用一个占位符,取代原具体类型,函数名后紧跟<占位符>。占位符可以是任意变量名。
+
+//打印任意类型数组的全部元素
+func printAny<placeHolder>(array: [placeHolder]) {
+    for element in array {
+        print(element)
     }
 }
 
-printAny(数组: [1,2,3])
-printAny(数组: [1.1,2.3,3.3])
-printAny(数组: ["1","2","3"])
+printAny(array: [1, 3, 5])
+printAny(array: [3.141, 1.414, 2.718])
+printAny(array: ["Swift", "Kotlin", "Javascript"])
 
-//Swift标准的交换值函数swap.
-var a = 3
-var b = -99
-swap(&a, &b)
-a
-b
-
-
-//: [类型参数](@next)
+//: [>](@next)
