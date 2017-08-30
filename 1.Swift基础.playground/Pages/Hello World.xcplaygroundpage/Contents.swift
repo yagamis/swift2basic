@@ -1,6 +1,6 @@
 //:   Hello World
 
 
-print("Hello World!世界你好")
-print("👦👧")
+print(1)
+print("hello world")
 //: [>](@next)

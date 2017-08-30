@@ -16,6 +16,7 @@ Weather.cloudy
 //:  - 与switch配合使用。如果变量是枚举值，可省略枚举名。如果switch语句不列举枚举类型的所有情况，则必须要有default语句来处理其他情况。
 var weatherToday = Weather.sunny
 
+
 switch weatherToday {
 case .cloudy:
     print("阴")

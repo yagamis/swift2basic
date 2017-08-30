@@ -2,15 +2,12 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='Swift'/>
-        <page name='历史和未来'/>
+        <page name='历史'/>
         <page name='创新之处'/>
         <page name='练习环境及支持'/>
         <page name='Hello World'/>
-        <page name='常量'/>
-        <page name='常量定义'/>
         <page name='常量赋值'/>
         <page name='变量'/>
-        <page name='常量与变量的关系'/>
         <page name='代码注释'/>
         <page name='如何正确使用常量与变量？'/>
         <page name='整数型和类型推断'/>
@@ -19,5 +16,6 @@
         <page name='布尔型'/>
         <page name='元组'/>
         <page name='可选类型'/>
+        <page name='作业'/>
     </pages>
 </playground>
