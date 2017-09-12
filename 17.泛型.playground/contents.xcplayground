@@ -4,7 +4,7 @@
         <page name='定义'/>
         <page name='使用泛型前'/>
         <page name='泛型函数'/>
-        <page name='类型参数'/>
+        <page name='泛型参数'/>
         <page name='泛型类型'/>
         <page name='泛型约束(选修）'/>
         <page name='关联类型（选修）'/>

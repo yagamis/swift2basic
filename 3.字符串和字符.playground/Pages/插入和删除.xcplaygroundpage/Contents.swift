@@ -15,6 +15,7 @@ a.remove(at: a.index(before: a.endIndex))
 //: - 删除一个范围的子串,用removeRange方法.🌰删除之前添加的字符串
 let start = a.index(a.endIndex, offsetBy: -(b.count))
 let subRange = start..<a.endIndex
+
 a.removeSubrange(subRange)
 
 a

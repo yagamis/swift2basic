@@ -8,31 +8,30 @@
 //:  - 定义和使用:与函数相似.  💡self属性:引用实例自身,通常可以不写.
 import UIKit
 
-//情绪
 enum Emotion {
-    case happy,normal,angry,sad
+    case normal, angry, sad, happy
 }
-
-//根据情绪来着装
+//根据情绪来调整着装
 struct Dressing {
     var emotion : Emotion
-
+    
     func color() -> UIColor {
-        switch self.emotion {
-        case .happy:
-            return UIColor.yellow
+        switch emotion {
         case .angry:
             return UIColor.red
+        case .happy:
+            return UIColor.yellow
+        case .normal:
+            return UIColor.gray
         case .sad:
             return UIColor.blue
-        default:
-            return UIColor.white
         }
     }
+    
 }
 
+let todayDressing = Dressing(emotion: .happy)
+todayDressing.color()
 
-let todayDress = Dressing(emotion: .happy)
-todayDress.color()
 
 //:  [>](@next)

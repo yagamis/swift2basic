@@ -6,7 +6,7 @@
 //: - 任意类型都可以“领养”协议，从而实现蓝本； 也称“遵从”该协议。
 //: - Swift的特色：面向协议编程， 鼓励多“领养”协议来替代类继承。 因为“领养”的代价远低于继承。
 
-//空协议
+//2个空协议
 protocol HouseAffordable {}
 protocol CarAffordable {}
 

@@ -11,21 +11,22 @@
 //         set {}
 //     }
 //:  - ☀️常见的用法：字典、数组、集合等。
-
 var odds = [1,3,5,7,9]
-odds[3]
+odds[2] = 6
 
-let citys = ["春":"昆明", "蓉": "成都", "羊":"广州"]
-citys["沪"]
+odds
+
+let cities = ["春": "昆明", "羊": "广州","蓉": "成都"]
+cities["蓉"]
+
 
 //:  - 1⃣️通过下标简化调用方法调用
-
 import Foundation
 
 struct Sphere {
     //体积
     subscript(r: Double) -> Double {
-      return (4/3) * .pi * pow(r, 3)
+        return (4 / 3)  * .pi * pow(r, 3)
     }
 }
 
@@ -33,7 +34,8 @@ let earth = Sphere()
 earth[6371]
 
 
-//:  - 2⃣️多维下标。实现一个二维行列式矩阵
+
+//:  - 2⃣️多维下标。实现一个二维行列式矩阵（选修）
 //       第0列  第1列
 // 第0行   1     3        索引：当前列 + 0
 // 第1行   5     7        索引：当前列 + 之前所有行列总数（当前行 × 总列数）

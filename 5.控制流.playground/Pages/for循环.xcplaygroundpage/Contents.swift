@@ -2,21 +2,13 @@
 //: 执行固定次数的操作,或操作一个序列(如数组)中的每一项.
 
 //:  - 1⃣️序列中的每项都参与. for与in之间加一个代替每项的名.
-let citys = ["beijing","shanghai","guangzhou"]
-
-for city in citys {
+let cities = ["Beijing","Shanghai","Guangzhou"]
+for city in cities {
     print(city)
 }
-
-var sum = 0
-
-for i in 1...100 {
-    sum += i
-}
-sum
 //:  - 2⃣️只需循环固定次数,可以省略项名. 比如打印5次相同的文本.
-for _ in 1...3 {
-    print("学Swift")
+for _ in 1...5 {
+    print("小波说雨燕")
 }
 
 

@@ -1,35 +1,33 @@
 //: 参数和返回值: 可以无参数无返回值
 
-//:  - 无参数无返回值。 用于执行一系列操作,不需要结果.
-
-func welcome() {
-    print("欢迎")
-    print("学习")
-    print("3天学会Swift")
+//:  - 无参数无返回值。 用于执行一系列操作.
+func welcome1() {
+    print("welcome to")
+    print("learn swift4!")
 }
 
-welcome()
-
+welcome1()
 //:  - 多返回值（使用元组）
-func maxMin() -> (Int, Int) {
-    return (Int.min, Int.max)
+func maxMin() -> (Int, Double) {
+    return (Int.max, 0.0)
 }
 
-maxMin().0
-maxMin().1
+let zzz = maxMin()
 
+print(zzz.1)
 //:  - 可以给某个参数以默认值
-func add2(x :Int, increment : Int = 2) -> Int {
+func add2(x: Int, increment: Int = 2) -> Int {
     return x + increment
 }
 
-add2(x: 3)
+let ccc = add2(x: 3)
+let ddd = add2(x: 4, increment: 6)
 
 //:  - 调用时省略参数名，定义时在参数名前加下划线
-func add3(_ x :Int, increment : Int = 3) -> Int {
-    return x + increment
+func add3(_ x: Int, _ y: Int) -> Int {
+    return x + y
 }
 
-add3(5)
+add3(2, 3)
 
 //: [>](@next)

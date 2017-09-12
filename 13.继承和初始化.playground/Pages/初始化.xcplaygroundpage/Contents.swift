@@ -19,14 +19,14 @@ livingTemp.温度
 
 //: - 2⃣️结构体定义不需要指定属性默认的值，因为默认提供一个包含所有属性初始化的构造器。
 
-//struct OfficeTemp {
-//    var 季节 : String
-//    var 温度 : Int
-//}
-//
-//let xiaoboOfficeTemp = OfficeTemp(季节: "冬天", 温度: 25)
-//xiaoboOfficeTemp.温度
-//xiaoboOfficeTemp.季节
+struct OfficeTemp {
+    var 季节 : String
+    var 温度 : Int
+}
+
+let xiaoboOfficeTemp = OfficeTemp(季节: "冬天", 温度: 25)
+xiaoboOfficeTemp.温度
+xiaoboOfficeTemp.季节
 
 //: - 3⃣️便利构造器：可以通过对主构造器的包装，实现便利的初始化。
 class Food {
@@ -67,10 +67,7 @@ menu1.count
 import UIKit
 
 let ball =  UIImage(named: "ball")
-
 let ball2 =  UIImage(named: "ball2")
-
-
 
 
 struct Animal {

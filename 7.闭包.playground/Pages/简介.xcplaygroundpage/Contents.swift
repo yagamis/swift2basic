@@ -11,7 +11,13 @@
 //      return ...
 // }
 
+func add(x: Int, y: Int) -> Int {
+    return x + y
+}
 
+var jiafa = { (x: Int, y: Int) -> Int  in
+    return x + y
+}
 
-
-//:  [闭包表达式](@next)
+jiafa(3, 4)
+//:  [>](@next)
