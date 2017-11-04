@@ -1,7 +1,5 @@
 //: 集合(Set): 值无序不重复. 适合存储具有唯一性的数据, 如用户名/身份证号码/护照号等
-
-//:  - 定义: Set<元素类型>, 无法使用类型推断,但可省略类型.
-var idcards : Set = [123,456,999,888, 123, 456,123]
+var idcards : Set = [123,456,999,888,123,456,123]
 
 
 //:  - 用数组字面量创建集合
@@ -12,10 +10,10 @@ idcards.count
 idcards.isEmpty
 
 //:  - ②插入:insert
-idcards.insert(9435)
+idcards.insert(999)
 
 //:  - ③移除:remove
-idcards.remove(9435)
+idcards.remove(999)
 
 //:  - ④是否包含某元素:contains
 idcards.contains(123)
@@ -24,9 +22,8 @@ idcards.contains(123)
 let idcardsArray = idcards.sorted()
 
 
-//:  - 集合间的运算: 交差并补
+//:  - 集合间的运算: 交差并补(选修)
 setdemo()
-
 
 
 

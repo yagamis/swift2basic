@@ -3,6 +3,17 @@
 
 //:  - 格式:while 条件 { 语句 }. 比如计算1到100的和。
 
+var result = 0
+let targetResult = 5050
+var initNumber = 1
+
+while result < targetResult {
+    result += initNumber
+    initNumber += 1
+}
+print(initNumber)
 
 
-//: [控制转移语句](@next)
+
+
+//: [>](@next)

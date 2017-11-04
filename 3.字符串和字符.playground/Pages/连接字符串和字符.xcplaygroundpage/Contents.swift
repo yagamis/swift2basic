@@ -1,15 +1,14 @@
 //: 连接字符串和字符
 //: - 用 + 
-let a = "便是"
-let b = "人间"
-let c = "好时节"
+let good1 = "大吉"
+let good2 = "大利"
 
-var d = a + b + c
+var good = good1 + good2
 
 //: - 向字符串添加字符, 用append方法
-let number = "😆"
+let dinner = " 今晚吃鸡😆"
 
-d.append(number)
+good.append(dinner)
 
 
 

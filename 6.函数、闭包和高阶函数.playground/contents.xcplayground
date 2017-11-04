@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='简介'/>
+        <page name='定义函数'/>
+        <page name='参数和返回值'/>
+        <page name='高阶函数'/>
+    </pages>
+</playground>
